@@ -134,12 +134,12 @@ font-size: 2em;  }
 
 .gcon{
   background-color: white;
+  margin: 10px;
   height: 300px;
   display: grid;
-  grid-template-columns: 150PX auto 100PX;
-  grid-template-rows: auto auto 50PX ;
-  /* justify-content: space-around; */
- grid-gap: 150PX 50PX;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows: auto auto;
+
 }
 .griditem{
   width: 50px;
